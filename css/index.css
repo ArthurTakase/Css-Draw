@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+a {
+    text-decoration: none;
+}
+
+.elem {
+    height: 15vw;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin: 1rem;
+    transition-duration: 0.5s;
+    background: rgba(255, 255, 255, 0.308);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0rem 0 1rem rgba(0, 0, 0, 0.123);
+}
+
+.elem:hover {
+    transform: scale(1.05);
+}
+
+.elem p {
+    margin-top: 5rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.fa-jedi-order {
+    padding-top: 0.8rem;
+    transform: scale(6);
+    color: white;
+}
+
+.fa-ticket-alt {
+    padding-top: 0.8rem;
+    transform: scale(6);
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.356);
+}
