@@ -1,6 +1,5 @@
 body {
     height: 100vh;
-    /* background: linear-gradient( 75deg, #1A273A, #323A4D, #1A273A); */
     background: #3889D2;
     display: flex;
     align-items: center;
@@ -12,12 +11,7 @@ body {
     position: relative;
     height: 30rem;
     width: 30rem;
-    /* repères */
-    /* border: dotted; */
     border: none;
-    /* border-color: rgba(255, 255, 255, 0.123); */
-    /* transform: rotate(90deg); */
-    /* animation: 3s ease infinite; */
     animation: float 6s ease-in-out infinite
 }
 
@@ -284,8 +278,6 @@ div {
 
 .vide-droite {
     background: #3889D2;
-    /* background: red; */
-    /* opacity: 0.5; */
     border: none;
     border-left: solid;
     border-width: 0.5rem;
