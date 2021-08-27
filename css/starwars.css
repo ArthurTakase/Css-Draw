@@ -1,0 +1,359 @@
+body {
+    height: 100vh;
+    /* background: linear-gradient( 75deg, #1A273A, #323A4D, #1A273A); */
+    background: #3889D2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.starwars {
+    position: relative;
+    height: 30rem;
+    width: 30rem;
+    /* repères */
+    /* border: dotted; */
+    border: none;
+    /* border-color: rgba(255, 255, 255, 0.123); */
+    /* transform: rotate(90deg); */
+    /* animation: 3s ease infinite; */
+    animation: float 6s ease-in-out infinite
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+div {
+    position: absolute;
+    border: solid;
+    border-width: 0.5rem;
+    border-color: #3C2C2E;
+}
+
+.coque {
+    top: 20%;
+    left: 20%;
+    height: 18rem;
+    width: 18rem;
+    background: #F1DED9;
+    border-radius: 50%;
+}
+
+.coque-draw {
+    border-radius: 50%;
+    border-width: 0.3rem;
+    top: 23.2%;
+    left: 23.2%;
+    height: 16.5rem;
+    width: 16.5rem;
+}
+
+.milieu-coque {
+    background: #F1DED9;
+    height: 5rem;
+    width: 5rem;
+    top: 41.5%;
+    left: 41.5%;
+    border-radius: 50%;
+}
+
+.milieu-coque-2 {
+    background: #F1DED9;
+    height: 6.5rem;
+    width: 6.5rem;
+    top: 39%;
+    left: 39%;
+    border-radius: 50%;
+}
+
+.ligne-tour {
+    top: 48.5%;
+    left: 42%;
+    width: 4.7rem;
+    background: #3C2C2E;
+    border-width: 0.4rem;
+}
+
+.ligne-tour-2 {
+    border-width: 0.4rem;
+    top: 50%;
+    left: 48%;
+    height: 2.48rem;
+    width: 1.2rem;
+    border-bottom: none;
+}
+
+.tour {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    top: 46%;
+    left: 47%;
+    background: #3C2C2E;
+}
+
+.cercle-arriere {
+    border-width: 0.4rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+}
+
+/* haut gauche */
+.cercle-1 {
+    top: 63.5%;
+    left: 42%;
+}
+
+/* haut milieu */
+.cercle-2 {
+    top: 65%;
+    left: 49%;
+}
+
+/* haut droite */
+.cercle-3 {
+    top: 63.5%;
+    left: 56%;
+}
+
+/* bas gauche */
+.cercle-4 {
+    top: 69%;
+    left: 38%;
+}
+
+/* bas milieu */
+.cercle-5 {
+    top: 72%;
+    left: 49%;
+}
+
+/* bas droite */
+.cercle-6 {
+    top: 69%;
+    left: 60%;
+}
+
+.trait-gauche {
+    top: 65%;
+    left: 26%;
+    width: 5.9rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    transform: rotate(-43deg);
+}
+
+
+.trait-droite {
+    top: 65%;
+    right: 22%;
+    width: 5.9rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    transform: rotate(43deg);
+}
+
+.trait-1 {
+    top: 45%;
+    left: 21%;
+    width: 18.5rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.trait-2 {
+    top: 54%;
+    right: 18%;
+    width: 18.5rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.vide {
+    background: #3889D2;
+    border: none;
+    top: 46.5%;
+    left: 18%;
+    width: 20rem;
+    height: 2.25rem;;
+}
+
+.center {
+    background: #D19F90;
+    height: 2.2rem;
+    width: 16rem;
+    top: 45%;
+    left: 23.3%;
+}
+
+.center-draw {
+    background: #D19F90;
+    height: 2.5rem;
+    width: 13rem;
+    top: 45%;
+    left: 29%;
+    border-width: 0.3rem;
+}
+
+.avant-centre {
+    background: #F1DED9;
+    width: 3rem;
+    height: 8rem;
+    left: 44.5%;
+    top: 15%;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.avant-centre-draw {
+    background: #F1DED9;
+    width: 1.4rem;
+    height: 8rem;
+    left: 48%;
+    top: 18.5%;
+    border-width: 0.3rem;
+}
+
+.chemin-cabine {
+    background: #F1DED9;
+    width: 10.5rem;
+    border-right: none;
+    height: 1rem;
+    top: 38%;
+    left: 45%;
+    transform: rotate(-45deg);
+}
+
+.cabine {
+    background: #F1DED9;
+    border-bottom: none;
+    width: 1.5rem;
+    height: 3.5rem;
+    top: 17%;
+    left: 70.5%;
+    border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.bout-cabine {
+    width: 0.8rem;
+    top: 14%;
+    left: 71.5%;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.bec-gauche {
+    background: #F1DED9;
+    height: 13rem;
+    width: 7.5rem;
+    left: 20.5%;
+}
+
+.bec-droite {
+    background: #F1DED9;
+    height: 13rem;
+    width: 7.5rem;
+    left: 54%;
+}
+
+.vide-gauche {
+    background: #3889D2;
+    border: none;
+    border-right: solid;
+    border-width: 0.5rem;
+    border-color: #3C2C2E;
+    width: 10rem;
+    height: 15.2rem;
+    transform: rotate(25deg);
+    top: -2.75rem;
+    left: -0.2rem;
+}
+
+.vide-droite {
+    background: #3889D2;
+    /* background: red; */
+    /* opacity: 0.5; */
+    border: none;
+    border-left: solid;
+    border-width: 0.5rem;
+    border-color: #3C2C2E;
+    width: 10rem;
+    height: 15.2rem;
+    transform: rotate(-25deg);
+    top: -2.75rem;
+    right: -1.2rem;
+}
+
+.cercle-avant {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+}
+
+.cercle-avant-1 {
+    top: 18%;
+    left: 35%;
+}
+
+.cercle-avant-2 {
+    top: 35%;
+    left: 27%;
+}
+
+.cercle-avant-3 {
+    top: 18%;
+    left: 60.5%;
+}
+
+.cercle-avant-4 {
+    top: 35%;
+    left: 68.5%;
+}
+
+.traine-blanche {
+    background: white;
+    border: none;
+    height: 100vh;
+    width: 18.5rem;
+    top : 60%;
+    left: 21%;
+    opacity: 0.8;
+}
+
+.traine-bleue {
+    background: #3EC5E7;
+    border: none;
+    height: 100vh;
+    top: 60%;
+}
+
+.traine-1 {
+    left: 23%;
+    width: 4.5rem;
+    opacity: 0.6;
+}
+
+.traine-2 {
+    left: 41%;
+    width: 6.3rem;
+    opacity: 0.4;
+}
+
+.traine-3 {
+    left: 65%;
+    width: 4.5rem;
+    opacity: 0.7;
+}
