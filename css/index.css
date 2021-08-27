@@ -9,6 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 @keyframes gradient {
@@ -28,8 +29,8 @@ a {
 }
 
 .elem {
-    height: 15vw;
-    width: 15vw;
+    height: 10rem;
+    width: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
