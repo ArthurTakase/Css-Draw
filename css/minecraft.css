@@ -8,6 +8,10 @@
     z-index: 5;
 }
 
+html {
+    overflow: hidden;
+}
+
 body {
     overflow: hidden;
     overflow-x: hidden;
