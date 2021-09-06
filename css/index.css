@@ -56,13 +56,7 @@ a {
     font-size: 1.2rem;
 }
 
-.fa-jedi-order {
-    padding-top: 0.8rem;
-    transform: scale(6);
-    color: white;
-}
-
-.fa-ticket-alt {
+i {
     padding-top: 0.8rem;
     transform: scale(6);
     color: white;
