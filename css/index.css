@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 @keyframes gradient {
@@ -28,10 +28,15 @@ a {
     text-decoration: none;
 }
 
+.container {
+    transform: translateY(-20px);
+    text-align: center;
+}
+
 .elem {
     height: 10rem;
     width: 10rem;
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
