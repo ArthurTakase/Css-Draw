@@ -1,93 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/movie.css"/>
-        <script type="text/javascript" src="js/script.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">        <title>Movie Tickets</title>
-        <script src="https://kit.fontawesome.com/3ecf11c032.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
 
-        <div class="center">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/movie.css" />
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <title>Movie Tickets</title>
+    <script src="https://kit.fontawesome.com/3ecf11c032.js" crossorigin="anonymous"></script>
+</head>
 
-            <div class="ticket">
-                <div class="left">
-                    <div class="header-blank"></div>
-                    <div class="header">Ticket</div>
-                    <div class="left-info">
-                        
-                        <div class="space"></div>
-                        <div class="space"></div>
-                        <h1>Standard</h1>
-                        <!-- <h1>3D</h1> -->
-                        <div class="space"></div>
-                        <p>Theater : <span id="theater2">2</span></p>
-                        <p>Seat : <span id="seat2">D12</span></p>
-                        <div class="space"></div>
-                        <div class="space"></div>
-                        <h2>Date:Time</h2>
-                        <p><span id="date2">10/01/2016</span></p>
-                        <p><span id="hour">14:00 PM</span></p>
+<body>
 
-                        <i class="fas fa-caret-up"></i>
-                        
-                    </div>
-                </div>
-                <div class="right">
-                    <div class="header-blank"></div>
-                    <div class="header">
-                        <i class="fas fa-star"></i>
-                        Cinema Ticket
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="right-info">
+    <div class="center">
 
-                        <div class="info-1">
-                            <div class="movie-title">
-                                <h1 id="movie">Movie</h1>
-                            </div>
-                            <p>Theater : <span id="theater">2</span> / Seat : <span id="seat">D12</span></p>
-                            <p>Date : <span id="date">10/01/2016</span></p>
-                            <p>Price : <span id="price">5 USD</span></p>
-                            <h2>N°<span id="number">0123456789</span></h2>
-                        </div>
+        <div class="ticket">
+            <div class="left">
+                <div class="header-blank"></div>
+                <div class="header">Ticket</div>
+                <div class="left-info">
 
-                        <div class="info-2">
-                            <h1 id="seat3">D12</h1>
-                            <img src="img/qr.png" alt="QRcode">
-                        </div>
+                    <div class="space"></div>
+                    <div class="space"></div>
+                    <h1>Standard</h1>
+                    <!-- <h1>3D</h1> -->
+                    <div class="space"></div>
+                    <p>Theater : <span id="theater2">2</span></p>
+                    <p>Seat : <span id="seat2">D12</span></p>
+                    <div class="space"></div>
+                    <div class="space"></div>
+                    <h2>Date:Time</h2>
+                    <p><span id="date2">10/01/2016</span></p>
+                    <p><span id="hour">14:00 PM</span></p>
 
-                    </div>
+                    <i class="fas fa-caret-up"></i>
+
                 </div>
             </div>
+            <div class="right">
+                <div class="header-blank"></div>
+                <div class="header">
+                    <i class="fas fa-star"></i> Cinema Ticket
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="right-info">
 
-            <div class="ticket-1"></div>
-            <div class="ticket-2"></div>
+                    <div class="info-1">
+                        <div class="movie-title">
+                            <h1 id="movie">Movie</h1>
+                        </div>
+                        <p>Theater : <span id="theater">2</span> / Seat : <span id="seat">D12</span></p>
+                        <p>Date : <span id="date">10/01/2016</span></p>
+                        <p>Price : <span id="price">5 USD</span></p>
+                        <h2>N°<span id="number">0123456789</span></h2>
+                    </div>
+
+                    <div class="info-2">
+                        <h1 id="seat3">D12</h1>
+                        <img src="img/qr.png" alt="QRcode">
+                    </div>
+
+                </div>
+            </div>
         </div>
-        
-        <div class="alerte">
-            <p>
-                Please take a <u>wider</u> screen<br>
-                <span class="subtext">
-                    ((If you are on a smartphone, try putting it horizontally or switching to desktop display)
-                </span>
-            </p>
-        </div>
 
-        <div class="circle circle-1"></div>
-        <div class="circle circle-2"></div>
+        <div class="ticket-1"></div>
+        <div class="ticket-2"></div>
+    </div>
 
-        <div class="tooltip"><i class="fas fa-question"></i>
-            <span class="tooltiptext">
+    <div class="alerte">
+        Please take a wider screen.<br> (If you are on a smartphone, try putting it horizontally or switching to desktop display)
+    </div>
+
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+
+    <div class="tooltip"><i class="fas fa-question"></i>
+        <span class="tooltiptext">
                 You can modify the ticket by editing the URL of the website.<br>
                 <u>Keywords:</u> movie, theater, seat, date, price, number, hour.<br>
                 <u>Ex:</u> index.html?movie=FreeGuy&number=10042002
             </span>
-        </div>
+    </div>
 
-    </body>
+</body>
+
 </html>

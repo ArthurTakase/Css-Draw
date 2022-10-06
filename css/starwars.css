@@ -26,15 +26,15 @@ body {
 }
 
 @keyframes float {
-	0% {
-		transform: translatey(50px);
-	}
-	50% {
-		transform: translatey(-50px);
-	}
-	100% {
-		transform: translatey(50px);
-	}
+    0% {
+        transform: translatey(50px);
+    }
+    50% {
+        transform: translatey(-50px);
+    }
+    100% {
+        transform: translatey(50px);
+    }
 }
 
 div {
@@ -113,37 +113,49 @@ div {
     border-radius: 50%;
 }
 
+
 /* haut gauche */
+
 .cercle-1 {
     top: 63.5%;
     left: 42%;
 }
 
+
 /* haut milieu */
+
 .cercle-2 {
     top: 65%;
     left: 49%;
 }
 
+
 /* haut droite */
+
 .cercle-3 {
     top: 63.5%;
     left: 56%;
 }
 
+
 /* bas gauche */
+
 .cercle-4 {
     top: 69%;
     left: 38%;
 }
 
+
 /* bas milieu */
+
 .cercle-5 {
     top: 72%;
     left: 49%;
 }
 
+
 /* bas droite */
+
 .cercle-6 {
     top: 69%;
     left: 60%;
@@ -158,7 +170,6 @@ div {
     border-right: none;
     transform: rotate(-43deg);
 }
-
 
 .trait-droite {
     top: 65%;
@@ -194,7 +205,8 @@ div {
     top: 46.5%;
     left: 18%;
     width: 20rem;
-    height: 2.25rem;;
+    height: 2.25rem;
+    ;
 }
 
 .center {
@@ -330,7 +342,7 @@ div {
     border: none;
     height: 100vh;
     width: 18.5rem;
-    top : 60%;
+    top: 60%;
     left: 21%;
     opacity: 0.8;
 }
@@ -360,34 +372,31 @@ div {
     opacity: 0.7;
 }
 
+
 /* Small screen */
+
 @media only screen and (max-width: 600px) {
     .alerte {
-        z-index: 30;
-        background: rgba(0, 0, 0, 0.719);
-        position: absolute;
+        background: rgba(0, 0, 0, 0.938);
+        border: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        backdrop-filter: blur(10px);
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        top: 0;
-        left: 0;
+        /* padding: 2rem; */
         color: white;
-        height: 100vh;
-        width: 100vw;
-        backdrop-filter: blur(10px);
-        font-size: 8vw;
-        font-family: 'Oswald', sans-serif;
-        letter-spacing: 0.05rem;
-        text-transform: uppercase;
-    }
-
-    .alerte .subtext {
-        font-size: 3vw;
     }
 }
 
+
 /* Large screen */
+
 @media only screen and (min-width: 600px) {
     .alerte {
         display: none;
